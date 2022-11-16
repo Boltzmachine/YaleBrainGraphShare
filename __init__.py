@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 DATA_DIR = os.path.dirname(os.path.abspath(__file__))
 
 atlas_to_file = {
-    "AAL3v1": "AAL3v1_3mm.nii.gz",
+    "aal3v1": "AAL3v1_3mm.nii.gz",
     "scheafer400": "scheafer400_HCP_3mm.nii.gz",
     "shen268": "Shen268_HCP_3mm.nii.gz",
     "shen368": "Shen368_HCP_3mm.nii.gz",
