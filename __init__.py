@@ -5,7 +5,7 @@ import nibabel as nib
 from tqdm import tqdm, trange
 import matplotlib.pyplot as plt
 
-DATA_DIR = "."
+DATA_DIR = os.path.dirname(os.path.abspath(__file__))
 
 atlas_to_file = {
     "AAL3v1": "AAL3v1_3mm.nii.gz",
